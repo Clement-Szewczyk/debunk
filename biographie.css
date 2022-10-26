@@ -3,21 +3,53 @@ body{
     background-color: rgb(50, 50, 50);
 }
 
+.info{
+    padding-top: 20px;
+}
+
 .vie_perso{
     margin-top:70px;
     color: white;
     padding: 10px;
+
+}
+
+.vie_perso h2, .vie_mediatique h2, .enterrement h2{
     text-decoration: underline;
+}
+
+.img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mariage{
+    width: 50%;
+    height: 50%;
+}
+
+.enfant{
+    width: 30%;
+    height: 30%;
 }
 
 .vie_mediatique{
     color:white;
     padding: 10px;
-    text-decoration: underline;
 }
 
 .enterrement{
     color: white;
     padding: 10px;
-    text-decoration: underline;
+}
+
+.funéraille{
+    width: 30%;
+    height: 20%;
+}
+
+.fleure{
+    width: 30%;
+    height: 30%;
 }
