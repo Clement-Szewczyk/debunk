@@ -3,9 +3,6 @@ body{
     background-color: rgb(50, 50, 50);
 }
 
-.info{
-    padding-top: 20px;
-}
 
 .vie_perso{
     margin-top:70px;
@@ -14,42 +11,131 @@ body{
 
 }
 
-.vie_perso h2, .vie_mediatique h2, .enterrement h2{
+.vie_perso h2{
+    text-align: center;
+    color: white;
     text-decoration: underline;
 }
 
-.img{
+.bio1{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.bio1 img{
+    width: 20%;
+}
+
+.bio2{
+    padding-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-bottom: 20px;
 }
 
-.mariage{
-    width: 50%;
-    height: 50%;
-}
-
-.enfant{
+.bio2 img:nth-child(1){
     width: 30%;
-    height: 30%;
 }
 
-.vie_mediatique{
-    color:white;
-    padding: 10px;
-}
-
-.enterrement{
-    color: white;
-    padding: 10px;
-}
-
-.funéraille{
+.bio2 img:nth-child(2){
     width: 30%;
-    height: 20%;
 }
 
-.fleure{
+.bio3{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.bio3 img{
+    width: 15%;
+}
+
+.bio4{
+    display: flex;
+    justify-content: center;
+    padding-top:20px ;
+    padding-bottom: 20px;
+}
+
+.bio4 img{
+    width: 25%;
+}
+
+.bio5{
+    padding-top:20px ;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.bio5 img:nth-child(1){
+    width: 25%;
+}
+
+.bio5 img:nth-child(2){
+    width: 25%;
+}
+
+.bio6{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bio6 img:nth-child(1){
     width: 30%;
-    height: 30%;
+}
+
+.bio6 img:nth-child(2){
+    width: 30%;
+}
+
+.bio7{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.bio7 img{
+    width: 30%;
+}
+
+.bio8{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.bio8 img{
+    width: 30%;
+}
+
+.bio9{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.bio9 img{
+    width: 30%;
+}
+
+.bio10{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;  
+}
+
+.bio10 img{
+    width: 30%;
 }
