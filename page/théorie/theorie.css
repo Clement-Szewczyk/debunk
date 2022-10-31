@@ -1,3 +1,35 @@
 body{
     background-color: rgb(50, 50, 50);
 }
+
+.theorie{
+    padding-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.theorie h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.theorie h2{
+    text-decoration: underline;
+}
+
+.theo1{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.theo1 img{
+    width: 20%;
+}
+
+.theorie p{
+    padding-top: 5px;
+}
